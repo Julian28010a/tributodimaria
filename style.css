@@ -1,3 +1,8 @@
+contacto  {
+  color: #73ACDF;
+}
+
+
 body {
   margin: 0;
 }
@@ -8,6 +13,10 @@ body {
   width: 100px;
 }
 
+.enviar {
+  color: lightblue;
+  background-color: #3e6c97;
+}
 main {
   position: relative; /* Necesario para posicionar el pseudo-elemento */
   padding-left: 15px; /* Espacio para que no tape el texto */
@@ -106,8 +115,13 @@ header {
     display: none;
   }
   
-.piedepag {
-  height: 100px;
-  text-align: center;
-  background-position: center;
-}
+  
+  label {
+    font-size: 25px;
+    text-align: center;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  }
+
